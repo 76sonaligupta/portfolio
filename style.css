@@ -332,6 +332,9 @@ section#skills {
     .section a{
         display: none;
     }
+    body{
+        background: black;
+    }
     .home-main-container{
         display: flex;
         flex-direction: column;
