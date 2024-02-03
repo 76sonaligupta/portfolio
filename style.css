@@ -192,10 +192,9 @@ border-radius: 100px;
     }
     .skills-containt{
         display: flex;
-        flex-direction: row;
         width: 100%;
         height: auto;
-        flex-wrap: wrap;
+        overflow: scroll;
 
     }
 .html{
@@ -427,10 +426,10 @@ section#form_gff562__form_container {
 .left-continer h2{
     font-size: 3vh;
 }
-.skills-containt {
+/* .skills-containt {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;}
+    height: auto;} */
 
 }
