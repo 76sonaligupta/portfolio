@@ -5,6 +5,9 @@ body{
    background-color: rgb(24, 27, 33);
    width: 100%;
 }
+h1{
+    color: white;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -128,7 +131,11 @@ h2{
     height: 400px;
     height: a;
     border-radius: 300px;
+    object-fit: cover;
 
+}
+h1 span {
+    font-size: 9vh;
 }
 span{
     color: rgba(79,70,229,1);
@@ -328,7 +335,13 @@ section#skills {
 }
 
 @media(max-width:700px){
+    .about-main-container p{
+        padding: 0px 28px 0 12px;
+        text-align: justify;    }
     .section a{
+        display: none;
+    }
+    .navbar{
         display: none;
     }
     body{
@@ -342,14 +355,15 @@ section#skills {
     .left-continer{
         height: auto;
         position: relative;
-        top: 0px;
-        margin: auto;
-    
+        top: 14px;
+        margin: 28px auto;
+    width:90%;
 
 
     }
     .left-continer h2{
         font-size: 4vh;
+
     }
     .right-container {
         position: relative;
@@ -432,4 +446,5 @@ section#form_gff562__form_container {
     width: 100%;
     height: auto;} */
 
+}
 }
