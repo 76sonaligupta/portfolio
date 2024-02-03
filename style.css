@@ -1,7 +1,5 @@
 body{
-    width:100%;
-height:auto;
-
+    background: black;
 }
 .parent-main-container {
    background-color: rgb(24, 27, 33);
