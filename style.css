@@ -131,7 +131,7 @@ h2{
 
 }
 span{
-    color: rgb(62, 189, 232);
+    color: rgba(79,70,229,1);
 }
 .left-continer h2{
     margin: auto;
@@ -346,9 +346,11 @@ section#skills {
         top: 0px;
         margin: auto;
     
+
+
     }
     .left-continer h2{
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .right-container {
         position: relative;
@@ -423,10 +425,12 @@ section#form_gff562__form_container {
     padding: 20px 0;
 }
 .left-continer h2{
-    font-size: 2vh;
+    font-size: 3vh;
 }
 .skills-containt {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;}}
+    height: auto;}
+
+}
