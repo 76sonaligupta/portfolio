@@ -2,7 +2,7 @@ body{
     background: black;
 }
 .parent-main-container {
-   background-color: rgb(24, 27, 33);
+   background-color: black;
    width: 100%;
 }
 h1{
@@ -35,6 +35,7 @@ a.github-img img{
     gap: 5px;
     position: absolute;
     left: 26%;
+    display: none;
 
 }
 .form_gff562__form_made_by{
@@ -132,6 +133,7 @@ h2{
     height: a;
     border-radius: 300px;
     object-fit: cover;
+    border: 2px solid white;
 
 }
 h1 span {
@@ -174,6 +176,10 @@ span{
 width: 200px;
 height: 200px;
 border-radius: 100px;
+object-fit: cover;
+top: 61px;
+position: relative;
+border: 2px solid white;
 
     }
     .left-about{
@@ -448,4 +454,37 @@ section#form_gff562__form_container {
     height: auto;} */
 
 }
+}
+@media(min-width:1000px){
+    section#form_gff562__form_container {
+        float: right;
+    }
+    .contact-me {
+        display: flex;
+        position: absolute;
+        right: 67%;    }
+    form#form_gff562__form {
+        position: relative;
+        left: 20%;
+    }
+    .contact-me h2 {
+        font-size: 4rem;
+        letter-spacing: 3px;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        position: absolute;
+        left: 0;
+        top: 200px;
+    }
+    a.github-img img {
+        width: 6%;
+        height: auto;
+    }
+    a.linkedin-img img {
+        width: 25%;
+        height: auto;
+    }
 }
