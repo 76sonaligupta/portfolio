@@ -8,6 +8,23 @@ body{
 input#form_gff562__form_input_3 {
     height: 89px !important;
 }
+.mail p{
+    font-size: clamp(1rem,2vw,1.5rem);
+
+}
+.mail{
+    text-align: center;
+}
+.resume-btn{
+ text-decoration: none;
+ color: white;
+ background-color:  rgba(79,70,229,1);
+ text-decoration: none;
+    padding: 11px 36px;
+    border: none;
+    border-radius: 7px;
+
+}
 h1{
     color: white;
     text-align: center;
@@ -465,7 +482,6 @@ section#form_gff562__form_container {
         float: right;
     }
     .contact-me {
-        display: flex;
         position: absolute;
         right: 67%;    }
     form#form_gff562__form {
