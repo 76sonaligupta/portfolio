@@ -7,6 +7,7 @@ body{
 }
 h1{
     color: white;
+    text-align: center;
 }
 .navbar{
     display: flex;
@@ -486,5 +487,8 @@ section#form_gff562__form_container {
     a.linkedin-img img {
         width: 25%;
         height: auto;
+    }
+    h1 span {
+        font-size: 7vh;
     }
 }
