@@ -5,9 +5,13 @@ body{
    background-color: black;
    width: 100%;
 }
+input#form_gff562__form_input_3 {
+    height: 89px !important;
+}
 h1{
     color: white;
     text-align: center;
+    font-size: 3vh;
 }
 .navbar{
     display: flex;
