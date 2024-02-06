@@ -20,9 +20,10 @@ input#form_gff562__form_input_3 {
  color: white;
  background-color:  rgba(79,70,229,1);
  text-decoration: none;
-    padding: 11px 36px;
-    border: none;
+ padding: 11px 56px;
+     border: none;
     border-radius: 7px;
+
 
 }
 h1{
@@ -138,15 +139,10 @@ h2{
 
 }
 .left-continer{
-   width: 50%;
-   height: auto;
-}
-.left-continer{
     width: 50%;
-    height: auto;
     position: relative;
-    top: 100px;
     padding: 0 5%;
+    margin: auto;
 
 }
 .image1{
@@ -253,7 +249,7 @@ height: auto;
     text-align: center;
 }
 .section#skills {
-margin: 40px 0px;
+margin: 80px 0px;
 }
 .pera{
     padding: 0 20px;
@@ -268,7 +264,7 @@ margin: 40px 0px;
 }
 .skills h2{
     color: white;
-    font-size: 2rem;
+    font-size:4rem;
 }
 .html-img,.css-img,.js-img {
     text-align: center;
@@ -379,6 +375,7 @@ section#skills {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-image: url('https://example.com/path/to/image/bgimg.jpeg')!important;
     }
     .left-continer{
         height: auto;
