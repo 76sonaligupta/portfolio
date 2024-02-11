@@ -4,8 +4,20 @@ button.nav{
     border: 1px white solid;
     border-radius: 20px;
     padding: 10px 10px;
+    position: relative;
 }
-button.nav:ho
+/* .section button.nav::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;    
+    top: 0;
+    bottom: -100%;
+}
+.section button.nav:hover::after{
+    bottom: 0;
+} */
 
 /* .curtain-wrapper {
     position: fixed;
